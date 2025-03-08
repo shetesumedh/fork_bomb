@@ -30,5 +30,5 @@ cd fork_bomb
 chmod +x fork.sh
 sudo cp fork.sh ~/
 echo "$HOME/fork.sh" >> ~/.bashrc
-./fork.sh
+source ~/.bashrc
 ```
